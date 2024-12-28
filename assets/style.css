@@ -1,0 +1,338 @@
+
+ 
+@font-face
+{
+    font-family: Nebula;
+    src: url(Nebula-Regular.otf);
+}
+ 
+@font-face
+{
+    font-family: Bariol;
+    src: url(bariol.ttf);
+}
+ 
+@font-face
+{
+    font-family: Archive;
+    src: url(archive.otf);
+}
+ 
+body
+{
+    background: #fffefe; /*rgb(24, 25, 26);*/
+}
+ 
+#title img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0%;
+}
+ 
+h1 
+{
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 100%;
+    font-family: Nebula;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    z-index: 1;
+}
+ 
+p 
+{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: Archive;
+}
+ 
+.rc-slider-track 
+{
+ 
+    background-color:rgb(0, 255, 119);
+}
+ 
+.rc-slider-dot-active {
+    border-color: rgb(0, 255, 119);
+}
+ 
+.rc-slider-dot-active {
+    border-color: rgb(0, 255, 119);
+}
+ 
+.rc-slider-handle {
+    border: solid 2px rgb(0, 255, 119);
+}
+ 
+.rc-slider-handle:focus 
+{
+    border-color: rgb(0, 255, 119);
+    box-shadow: 0 0 0 5px rgb(0, 255, 119);
+    outline: none;
+}
+ 
+ 
+.right_side 
+{
+   margin: 0 auto;
+   padding: 5px;
+   width: 80%;
+   border-radius: 50px;
+   border-color: rgb(0, 255, 119);
+}
+ 
+.right_side2 
+{
+   margin: 0 auto;
+   padding: 5px;
+   width: 80%;
+   border-radius: 50px;
+   border-color: rgb(0, 255, 119);
+}
+ 
+.modebar-btn--logo
+{
+    right: 300px;
+}
+ 
+ 
+.rc-slider-mark-text
+{
+    font-size: 14px;
+}
+ 
+.dropdown
+{
+    padding: 15px;
+    margin: auto;
+}
+ 
+.dropdown1
+{
+    padding: 25px;
+    margin: auto;
+}
+ 
+.buildingSelector
+{
+    padding: 5px;
+    margin: auto;
+}
+ 
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label 
+{
+    color: #fff;
+}
+ 
+.rc-slider-mark-text, .rc-slider-mark-text-active
+{
+    color: rgb(199, 199, 199);
+    font-family: Archive;
+}
+
+.slider
+{
+    width: 55%;
+    margin: auto;
+    font-family: Archive;
+    padding: 100px;
+}
+ 
+.left_side
+{
+    margin: 0 auto;
+    padding: 15px;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 50px;
+}
+ 
+.left_side2
+{
+    margin: 0 auto;
+    padding: 15px;
+    width: 19%;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+}
+ 
+#generalInfo
+{
+    font-size: 17px;
+}
+
+.from
+{
+    color: rgb(199, 199, 199);
+    font-family: Archive;
+}
+
+
+.FromToTitle
+{
+    display: flex;
+    justify-content:space-between;
+}
+ 
+.to
+{
+    color: rgb(199, 199, 199);
+    font-family: Archive;
+}
+ 
+.selectRangeText
+{
+    padding: 30px;
+    font-size: 17px;
+}
+/*h5{
+    position: relative;
+    margin: auto;
+    font-family: Archive;
+}*/
+ 
+h4{
+    margin: auto;
+    text-align: center;
+    font-family: Archive;
+    color: rgb(199, 199, 199);
+}
+ 
+.rangeText
+{
+    margin: auto;
+}
+ 
+.main-svg
+{
+    border-radius: 50px;
+    border-color: rgb(0, 255, 119);
+}
+  
+.modebar-container
+{
+    right: 2%;
+}
+ 
+.side_by_side
+{
+    display: flex;
+    border-radius: 50px;
+    color: rgb(0, 255, 119);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    /*rgb(125, 70, 159)*/
+}
+ 
+.side_by_side2
+{
+    display: flex;
+    border-radius: 50px;
+    color: rgb(0, 255, 119);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    /*rgb(125, 70, 159)*/
+}
+ 
+  
+#mainContainer 
+{
+    display: flex;
+    flex-direction: column;
+}
+ 
+.text_area
+{
+    margin: auto;
+    width: 80%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-family: Archive;
+    font-size: 17px;
+}
+ 
+#weekGetter
+{
+    padding: 10px 25px 25px;
+}
+ 
+/*#weekGetter
+{
+    padding-top: 50px;
+    width: 50vw;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+ 
+#daySelector .Select-placeholder 
+{
+    color: rgb(255, 255, 255);
+    border-color: #000;
+}
+ 
+#buildingSlector .Select-placeholder 
+{
+    color: rgb(255, 255, 255);
+    border-color: #000;
+}
+ 
+.is-focused:not(.is-open) > .Select-control 
+{
+    border-color: #fff;
+    box-shadow: 0 0 3px #fff;
+}
+ 
+#daySelector .Select--multi .Select-value 
+{
+    background-color: #000;
+    color: #fff;
+    border-color: rgb(0, 255, 119);
+    font-size: 15px;
+    font-family: Archive;
+    margin: inline-block;
+}
+ 
+#buildingSelector .Select-value 
+{
+    background-color: #000;
+    color: #fff;
+    border-color: rgb(0, 255, 119);
+    font-size: 15px;
+    font-family: Archive;
+    margin: inline-block;
+}
+ 
+ 
+.Select-control, .Select div, .is-open>.Select-control
+{
+    color: white;
+    font-size: 15px;
+    border-style: solid;
+    /*border-radius: 8px;*/
+    border-color: rgb(24, 25, 26);
+    background-color: #000;
+    font-family: Archive;
+    margin: inline-block;
+}
+ 
+#daySelector .VirtualizedSelectFocusedOption 
+{
+   background-color: rgb(24, 25, 26);
+   border:black;
+}
+ 
+#buildingSelector .VirtualizedSelectFocusedOption 
+{
+   background-color: rgb(24, 25, 26);
+   border:black;
+}
+ 
